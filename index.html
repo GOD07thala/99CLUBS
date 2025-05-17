@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Trading Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎮 Color Trading Game</h1>
+  <div class="game-container">
+    <div class="period-info">
+      <p id="period">Period: Loading...</p>
+      <p id="timer">Time left: 60s</p>
+    </div>
+    <div class="buttons">
+      <button onclick="predict('RED')">🔴 Red</button>
+      <button onclick="predict('GREEN')">🟢 Green</button>
+      <button onclick="predict('BLUE')">🔵 Blue</button>
+    </div>
+    <div id="result">Place your prediction!</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
